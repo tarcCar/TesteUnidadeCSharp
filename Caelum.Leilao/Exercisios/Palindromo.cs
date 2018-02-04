@@ -16,7 +16,6 @@ namespace Caelum.Leilao.Exercisios
             for (int i = 0; i < fraseFiltrada.Length; i++)
             {
                 var index = i == 0 ? 1 : i+1;
-                Console.WriteLine(fraseFiltrada[i]+" = "+fraseFiltrada[fraseFiltrada.Length - index]);
                 if (fraseFiltrada[i] != fraseFiltrada[fraseFiltrada.Length - index])
                 {
                     return false;
