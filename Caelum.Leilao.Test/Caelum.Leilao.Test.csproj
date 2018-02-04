@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Exercisios\AnoBissextoTest.cs" />
     <Compile Include="Exercisios\FiltroDeLancesTest.cs" />
     <Compile Include="Exercisios\MatematicaMalucaTest.cs" />
     <Compile Include="Exercisios\PalindromoTest.cs" />
+    <Compile Include="LeilaoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AvaliadorTest.cs" />
   </ItemGroup>
