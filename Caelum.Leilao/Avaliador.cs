@@ -14,6 +14,9 @@ namespace Caelum.Leilao
         private List<Lance> maiores = new List<Lance>();
         public void Avalia(Leilao leilao)
         {
+            if (leilao.Lances.Count == 0)
+                throw new Exception("Não é possivel avaliar sem lances");
+
             foreach (Lance lance in leilao.Lances)
             {
                 if (lance.Valor > maiorDeTodos)
