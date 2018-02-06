@@ -1,3 +1,5 @@
+using System;
+
 namespace Caelum.Leilao
 {
 
@@ -9,6 +11,8 @@ namespace Caelum.Leilao
 
         public Lance(Usuario usuario, double valor)
         {
+            if (valor <= 0)
+                throw new ArgumentException("Valor do lance nao pode ser menor ou igual a zero");
             this.Usuario = usuario;
             this.Valor = valor;
         }

@@ -52,6 +52,7 @@
     <Compile Include="Exercisios\FiltroDeLancesTest.cs" />
     <Compile Include="Exercisios\MatematicaMalucaTest.cs" />
     <Compile Include="Exercisios\PalindromoTest.cs" />
+    <Compile Include="LanceTest.cs" />
     <Compile Include="LeilaoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AvaliadorTest.cs" />
